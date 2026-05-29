@@ -127,7 +127,7 @@ export default function Calculator() {
                 <p className="mt-2 text-xs text-gray-400">
                   Точную смету рассчитаем после бесплатного замера
                 </p>
-                <CTAButtons className="mt-4 justify-center" variant="mixed" />
+                <CTAButtons className="mt-4 justify-center" variant="primary" />
               </div>
             )}
           </div>
