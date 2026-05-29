@@ -95,7 +95,6 @@ export function generatePageFAQ(city: City, service: Service): FAQItem[] {
     unit: service.unit,
     phone: "+7 (927) 180-06-39",
     deliveryDays: city.deliveryDays,
-    localFeature: city.localFeature,
     price20m: formatPrice(FENCE_20M_PRICE_FROM),
   };
 

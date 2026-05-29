@@ -9,7 +9,7 @@ const FENCE_TYPES = [
   { id: "profnastil", label: "Профнастил", pricePerMeter: 1800 },
   { id: "3d", label: "3D забор", pricePerMeter: 2200 },
   { id: "metal", label: "Металл", pricePerMeter: 2000 },
-  { id: "pod-klyuch", label: "Под ключ", pricePerMeter: 2500 },
+  { id: "pod-klyuch", label: "Под ключ", pricePerMeter: 1200 },
 ];
 
 const HEIGHTS = [

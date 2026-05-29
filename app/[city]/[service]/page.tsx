@@ -126,13 +126,6 @@ export default async function ServicePage({ params }: PageProps) {
                 <CTAButtons className="flex-col [&>a]:w-full" />
               </div>
 
-              <div className="rounded-2xl border border-gray-200 p-6">
-                <h3 className="mb-3 font-bold text-graphite">О городе</h3>
-                <p className="text-sm text-gray-600">
-                  {city.name} — {city.region}, население {city.population}.
-                  {city.localFeature.charAt(0).toUpperCase() + city.localFeature.slice(1)}.
-                </p>
-              </div>
             </aside>
           </div>
         </div>
