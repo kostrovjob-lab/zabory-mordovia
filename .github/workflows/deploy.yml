@@ -27,8 +27,8 @@ jobs:
 
       - name: Install and build
         env:
-          NEXT_PUBLIC_BASE_PATH: /${{ github.event.repository.name }}
-          NEXT_PUBLIC_SITE_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}
+          # Кастомный домен — без /zabory-mordovia в URL. Для github.io верните NEXT_PUBLIC_BASE_PATH.
+          NEXT_PUBLIC_SITE_URL: https://zabory-mordovia.ru
         run: |
           npm ci
           npm run build
