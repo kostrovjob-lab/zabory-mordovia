@@ -1,6 +1,8 @@
+import Link from "next/link";
 import CTAButtons from "@/components/CTAButtons";
 import SchemaMarkup from "@/components/SchemaMarkup";
 import { cities } from "@/lib/data";
+import { pagePath } from "@/lib/paths";
 import { contactsMetadata, localBusinessSchema } from "@/lib/seo";
 import { SITE_NAME, PHONE_DISPLAY, BUSINESS, AVITO_URL, telLink } from "@/lib/constants";
 
@@ -60,12 +62,12 @@ export default function ContactsPage() {
             <ul className="grid grid-cols-2 gap-2 sm:grid-cols-3">
               {cities.map((city) => (
                 <li key={city.slug}>
-                  <a
-                    href={`/${city.slug}/zabory-pod-klyuch`}
+                  <Link
+                    href={pagePath(city.slug, "zabory-pod-klyuch")}
                     className="block rounded-lg border border-gray-200 px-3 py-2 text-sm text-gray-600 hover:border-accent hover:text-accent"
                   >
                     {city.name}
-                  </a>
+                  </Link>
                 </li>
               ))}
             </ul>

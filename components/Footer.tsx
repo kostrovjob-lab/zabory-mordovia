@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { cities, services } from "@/lib/data";
+import { pagePath } from "@/lib/paths";
 import { SITE_NAME, telLink, smsLink, AVITO_URL, PHONE_DISPLAY, BUSINESS } from "@/lib/constants";
 
 export default function Footer() {
@@ -40,7 +41,7 @@ export default function Footer() {
               {cities.map((city) => (
                 <li key={city.slug}>
                   <Link
-                    href={`/${city.slug}/zabory-pod-klyuch`}
+                    href={pagePath(city.slug, "zabory-pod-klyuch")}
                     className="text-sm text-gray-300 hover:text-accent"
                   >
                     {city.name}
@@ -58,7 +59,7 @@ export default function Footer() {
               {footerServices.map((service) => (
                 <li key={service.slug}>
                   <Link
-                    href={`/saransk/${service.slug}`}
+                    href={pagePath("saransk", service.slug)}
                     className="text-sm text-gray-300 hover:text-accent"
                   >
                     {service.name}
@@ -74,7 +75,7 @@ export default function Footer() {
             </h3>
             <ul className="space-y-2 text-sm text-gray-300">
               <li>
-                <Link href="/kontakty" className="hover:text-accent">
+                <Link href={pagePath("kontakty")} className="hover:text-accent">
                   Контакты
                 </Link>
               </li>

@@ -1,5 +1,6 @@
 import Link from "next/link";
 import type { City, Service } from "@/lib/data";
+import { pagePath } from "@/lib/paths";
 
 interface RelatedLinksProps {
   city: City;
@@ -26,7 +27,7 @@ export default function RelatedLinks({
               {relatedServices.map((s) => (
                 <li key={s.slug}>
                   <Link
-                    href={`/${city.slug}/${s.slug}`}
+                    href={pagePath(city.slug, s.slug)}
                     className="text-sm text-gray-600 hover:text-accent"
                   >
                     {s.name} в {city.nameIn}
@@ -44,7 +45,7 @@ export default function RelatedLinks({
               {otherCities.map((c) => (
                 <li key={c.slug}>
                   <Link
-                    href={`/${c.slug}/${service.slug}`}
+                    href={pagePath(c.slug, service.slug)}
                     className="text-sm text-gray-600 hover:text-accent"
                   >
                     {service.name} в {c.nameIn}

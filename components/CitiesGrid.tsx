@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { cities } from "@/lib/data";
+import { pagePath } from "@/lib/paths";
 
 export default function CitiesGrid() {
   return (
@@ -13,7 +14,7 @@ export default function CitiesGrid() {
           {cities.map((city) => (
             <Link
               key={city.slug}
-              href={`/${city.slug}/zabory-pod-klyuch`}
+              href={pagePath(city.slug, "zabory-pod-klyuch")}
               className="rounded-xl border border-gray-200 px-4 py-3 text-center text-sm font-medium text-graphite transition-colors hover:border-accent hover:text-accent"
             >
               {city.name}

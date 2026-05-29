@@ -23,7 +23,7 @@ import {
   breadcrumbSchema,
 } from "@/lib/seo";
 import { formatPrice } from "@/lib/constants";
-import { withBase } from "@/lib/paths";
+import { pagePath, withBase } from "@/lib/paths";
 
 interface PageProps {
   params: Promise<{ city: string; service: string }>;
@@ -69,8 +69,8 @@ export default async function ServicePage({ params }: PageProps) {
           <div className="container-main">
             <Breadcrumbs
               items={[
-                { label: "Главная", href: "/" },
-                { label: city.name, href: `/${city.slug}/zabory-pod-klyuch` },
+                { label: "Главная", href: pagePath() },
+                { label: city.name, href: pagePath(city.slug, "zabory-pod-klyuch") },
                 { label: service.name },
               ]}
             />

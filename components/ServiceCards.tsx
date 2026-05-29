@@ -2,7 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import type { Service } from "@/lib/data";
 import { formatPrice } from "@/lib/constants";
-import { withBase } from "@/lib/paths";
+import { pagePath, withBase } from "@/lib/paths";
 
 interface ServiceCardsProps {
   services: Service[];
@@ -22,7 +22,7 @@ export default function ServiceCards({ services, citySlug = "saransk" }: Service
           {services.map((service) => (
             <Link
               key={service.slug}
-              href={`/${citySlug}/${service.slug}`}
+              href={pagePath(citySlug, service.slug)}
               className="group block overflow-hidden rounded-2xl border border-gray-200 bg-white shadow-sm transition-shadow hover:shadow-lg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2"
             >
               <article>
