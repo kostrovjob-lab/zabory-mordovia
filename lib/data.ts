@@ -1,6 +1,7 @@
 import citiesData from "@/data/cities.json";
 import servicesData from "@/data/services.json";
 import faqData from "@/data/faq.json";
+import { FENCE_20M_PRICE_FROM, formatPrice } from "@/lib/constants";
 
 export interface City {
   slug: string;
@@ -95,7 +96,7 @@ export function generatePageFAQ(city: City, service: Service): FAQItem[] {
     phone: "+7 (927) 180-06-39",
     deliveryDays: city.deliveryDays,
     localFeature: city.localFeature,
-    price20m: (service.priceFrom * 20).toLocaleString("ru-RU"),
+    price20m: formatPrice(FENCE_20M_PRICE_FROM),
   };
 
   return faqData.templates.slice(0, 6).map((t) => ({

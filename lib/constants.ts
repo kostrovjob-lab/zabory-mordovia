@@ -41,6 +41,9 @@ export function smsLink(body = SMS_BODY) {
   return `sms:${PHONE}?body=${encodeURIComponent(body)}`;
 }
 
+/** Ориентир для FAQ: забор 20 м «под ключ» (не зависит от цены ворот/калиток). */
+export const FENCE_20M_PRICE_FROM = 70_000;
+
 export function formatPrice(n: number): string {
   return n.toLocaleString("ru-RU");
 }
