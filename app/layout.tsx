@@ -7,12 +7,12 @@ import MobileStickyBar from "@/components/MobileStickyBar";
 import SchemaMarkup from "@/components/SchemaMarkup";
 import YandexMetrika from "@/components/YandexMetrika";
 import { localBusinessSchema } from "@/lib/seo";
-import { SITE_NAME } from "@/lib/constants";
+import { SITE_NAME, SITE_URL } from "@/lib/constants";
 
 const inter = Inter({ subsets: ["latin", "cyrillic"], variable: "--font-inter" });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://zabory-mordovia.ru"),
+  metadataBase: new URL(SITE_URL),
   title: { default: SITE_NAME, template: `%s | ${SITE_NAME}` },
 };
 

@@ -1,5 +1,6 @@
 import CTAButtons from "./CTAButtons";
 import { BULLETS } from "@/lib/constants";
+import { withBase } from "@/lib/paths";
 
 interface HeroProps {
   title?: string;
@@ -16,7 +17,7 @@ export default function Hero({
     <section className="relative min-h-[85vh] flex items-center overflow-hidden">
       <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-        style={{ backgroundImage: "url('/images/hero.jpg')" }}
+        style={{ backgroundImage: `url('${withBase("/images/hero.jpg")}')` }}
         role="img"
         aria-label="Современный забор из профнастила"
       />
