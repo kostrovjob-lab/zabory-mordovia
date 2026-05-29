@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-white text-graphite antialiased;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 rounded-lg bg-accent px-6 py-3 font-semibold text-graphite-dark transition-colors hover:bg-accent-hover focus:outline-none focus:ring-2 focus:ring-accent focus:ring-offset-2;
+  }
+  .btn-secondary {
+    @apply inline-flex items-center justify-center gap-2 rounded-lg border-2 border-white/30 bg-white/10 px-6 py-3 font-semibold text-white backdrop-blur-sm transition-colors hover:bg-white/20 focus:outline-none focus:ring-2 focus:ring-white/50;
+  }
+  .btn-outline {
+    @apply inline-flex items-center justify-center gap-2 rounded-lg border-2 border-graphite px-6 py-3 font-semibold text-graphite transition-colors hover:bg-graphite hover:text-white focus:outline-none focus:ring-2 focus:ring-graphite focus:ring-offset-2;
+  }
+  .btn-avito {
+    @apply inline-flex items-center justify-center gap-2 rounded-lg bg-[#00AAFF] px-6 py-3 font-semibold text-white transition-colors hover:bg-[#0096e0] focus:outline-none focus:ring-2 focus:ring-[#00AAFF] focus:ring-offset-2;
+  }
+  .section-title {
+    @apply text-2xl font-bold text-graphite md:text-3xl;
+  }
+  .container-main {
+    @apply mx-auto max-w-6xl px-4 sm:px-6 lg:px-8;
+  }
+}

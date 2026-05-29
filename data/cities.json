@@ -1,0 +1,102 @@
+[
+  {
+    "slug": "saransk",
+    "name": "Саранск",
+    "nameIn": "Саранске",
+    "nameFrom": "Саранска",
+    "region": "столица Мордовии",
+    "population": "318 тыс.",
+    "deliveryDays": "1",
+    "localFeature": "работаем во всех районах города — от Ленинского до Пролетарского"
+  },
+  {
+    "slug": "ruzaevka",
+    "name": "Рузаевка",
+    "nameIn": "Рузаевке",
+    "nameFrom": "Рузаевки",
+    "region": "крупный промышленный центр",
+    "population": "47 тыс.",
+    "deliveryDays": "1",
+    "localFeature": "выезжаем на объекты в микрорайонах и частном секторе"
+  },
+  {
+    "slug": "kovylkino",
+    "name": "Ковылкино",
+    "nameIn": "Ковылкино",
+    "nameFrom": "Ковылкино",
+    "region": "город на юге республики",
+    "population": "20 тыс.",
+    "deliveryDays": "1–2",
+    "localFeature": "знаем особенности грунта и рельефа в районе"
+  },
+  {
+    "slug": "krasnoslobodsk",
+    "name": "Краснослободск",
+    "nameIn": "Краснослободске",
+    "nameFrom": "Краснослободска",
+    "region": "исторический город Мордовии",
+    "population": "9,5 тыс.",
+    "deliveryDays": "1–2",
+    "localFeature": "монтируем ограждения для частных домов и дачных участков"
+  },
+  {
+    "slug": "ardatov",
+    "name": "Ардатов",
+    "nameIn": "Ардатове",
+    "nameFrom": "Ардатова",
+    "region": "районный центр",
+    "population": "8,4 тыс.",
+    "deliveryDays": "1–2",
+    "localFeature": "работаем с частными и коммерческими объектами"
+  },
+  {
+    "slug": "insar",
+    "name": "Инсар",
+    "nameIn": "Инсаре",
+    "nameFrom": "Инсара",
+    "region": "город на реке Инсар",
+    "population": "8,3 тыс.",
+    "deliveryDays": "1–2",
+    "localFeature": "учитываем ветровую нагрузку при выборе конструкции"
+  },
+  {
+    "slug": "temnikov",
+    "name": "Темников",
+    "nameIn": "Темникове",
+    "nameFrom": "Темникова",
+    "region": "древний город на реке Мокша",
+    "population": "6,5 тыс.",
+    "deliveryDays": "2",
+    "localFeature": "устанавливаем заборы на участках с перепадом высот"
+  },
+  {
+    "slug": "komsomolskiy",
+    "name": "Комсомольский",
+    "nameIn": "Комсомольском",
+    "nameFrom": "Комсомольского",
+    "region": "рабочий посёлок",
+    "population": "8,6 тыс.",
+    "deliveryDays": "1–2",
+    "localFeature": "быстро выезжаем на замер по всему посёлку"
+  },
+  {
+    "slug": "chamzinka",
+    "name": "Чамзинка",
+    "nameIn": "Чамзинке",
+    "nameFrom": "Чамзинки",
+    "region": "посёлок городского типа",
+    "population": "13 тыс.",
+    "deliveryDays": "1",
+    "localFeature": "закупаем материалы с учётом логистики до Чамзинки"
+  },
+  {
+    "slug": "atyashevo",
+    "name": "Атяшево",
+    "nameIn": "Атяшево",
+    "nameFrom": "Атяшево",
+    "region": "районный центр Атяшевского района",
+    "population": "5,8 тыс.",
+    "deliveryDays": "2",
+    "localFeature": "выезжаем в сёла района — доставка включена в смету"
+  }
+]

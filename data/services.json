@@ -1,0 +1,123 @@
+[
+  {
+    "slug": "zabor-iz-profnastila",
+    "name": "Забор из профнастила",
+    "shortName": "Профнастил",
+    "priceFrom": 1800,
+    "unit": "п.м.",
+    "description": "Надёжное ограждение из профлиста на металлическом каркасе. Защита от ветра, долговечность до 25 лет.",
+    "image": "/images/profnastil.jpg",
+    "keywords": ["профнастил", "профлист", "металлический забор"],
+    "category": "fence"
+  },
+  {
+    "slug": "zabor-iz-rabicy",
+    "name": "Забор из рабицы",
+    "shortName": "Рабица",
+    "priceFrom": 1200,
+    "unit": "п.м.",
+    "description": "Экономичное решение из сетки-рабицы. Подходит для дач, садовых участков и временных ограждений.",
+    "image": "/images/rabitsa.jpg",
+    "keywords": ["рабица", "сетка", "сетчатый забор"],
+    "category": "fence"
+  },
+  {
+    "slug": "3d-zabor",
+    "name": "3D забор",
+    "shortName": "3D-сетка",
+    "priceFrom": 2200,
+    "unit": "п.м.",
+    "description": "Современная 3D-сетка с V-образным профилем. Прочная, эстетичная, не требует покраски.",
+    "image": "/images/3d-zabor.jpg",
+    "keywords": ["3d забор", "3d сетка", "еврозабор"],
+    "category": "fence"
+  },
+  {
+    "slug": "zabory-pod-klyuch",
+    "name": "Забор под ключ",
+    "shortName": "Под ключ",
+    "priceFrom": 2500,
+    "unit": "п.м.",
+    "description": "Полный цикл: замер, материалы, доставка, монтаж, уборка. Вы получаете готовое ограждение.",
+    "image": "/images/pod-klyuch.jpg",
+    "keywords": ["под ключ", "заказать забор", "установка забора"],
+    "category": "fence"
+  },
+  {
+    "slug": "otkatnye-vorota",
+    "name": "Откатные ворота",
+    "shortName": "Откатные",
+    "priceFrom": 45000,
+    "unit": "комплект",
+    "description": "Откатная система с рельсом и автоматикой. Экономит место, удобна для широких проездов.",
+    "image": "/images/otkatnye.jpg",
+    "keywords": ["откатные ворота", "автоматика", "рельс"],
+    "category": "gate"
+  },
+  {
+    "slug": "raspashnye-vorota",
+    "name": "Распашные ворота",
+    "shortName": "Распашные",
+    "priceFrom": 28000,
+    "unit": "комплект",
+    "description": "Классические распашные ворота на петлях. Надёжная конструкция для частных домов.",
+    "image": "/images/raspashnye.jpg",
+    "keywords": ["распашные ворота", "калитка с воротами"],
+    "category": "gate"
+  },
+  {
+    "slug": "kalitki",
+    "name": "Калитки",
+    "shortName": "Калитки",
+    "priceFrom": 8500,
+    "unit": "шт.",
+    "description": "Металлические калитки в стиле забора. Замки, петли, фурнитура — всё включено.",
+    "image": "/images/kalitka.jpg",
+    "keywords": ["калитка", "металлическая калитка", "дверь в забор"],
+    "category": "gate"
+  },
+  {
+    "slug": "montazh-zaborov",
+    "name": "Монтаж заборов",
+    "shortName": "Монтаж",
+    "priceFrom": 800,
+    "unit": "п.м.",
+    "description": "Профессиональный монтаж ограждений любой сложности. Работаем с вашим или нашим материалом.",
+    "image": "/images/montazh.jpg",
+    "keywords": ["монтаж", "установка", "сборка забора"],
+    "category": "service"
+  },
+  {
+    "slug": "zabor-iz-metalla",
+    "name": "Забор из металла",
+    "shortName": "Металл",
+    "priceFrom": 2000,
+    "unit": "п.м.",
+    "description": "Кованые и сварные металлические ограждения. Индивидуальный дизайн и покрытие.",
+    "image": "/images/metal.jpg",
+    "keywords": ["металлический забор", "сварной забор", "кованый"],
+    "category": "fence"
+  },
+  {
+    "slug": "demontazh-zabora",
+    "name": "Демонтаж забора",
+    "shortName": "Демонтаж",
+    "priceFrom": 300,
+    "unit": "п.м.",
+    "description": "Аккуратный демонтаж старого ограждения с вывозом. Готовим площадку под новый забор.",
+    "image": "/images/demontazh.jpg",
+    "keywords": ["демонтаж", "снос забора", "вывоз"],
+    "category": "service"
+  },
+  {
+    "slug": "zabor-dlya-dachi",
+    "name": "Забор для дачи",
+    "shortName": "Для дачи",
+    "priceFrom": 1500,
+    "unit": "п.м.",
+    "description": "Лёгкие и практичные ограждения для дачных участков. Бюджетные и премиальные варианты.",
+    "image": "/images/dacha.jpg",
+    "keywords": ["дачный забор", "садовый забор", "ограждение участка"],
+    "category": "fence"
+  }
+]
