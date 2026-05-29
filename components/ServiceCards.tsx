@@ -2,6 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import type { Service } from "@/lib/data";
 import { formatPrice } from "@/lib/constants";
+import { withBase } from "@/lib/paths";
 
 interface ServiceCardsProps {
   services: Service[];
@@ -25,7 +26,7 @@ export default function ServiceCards({ services, citySlug = "saransk" }: Service
             >
               <div className="relative h-48 overflow-hidden bg-gray-100">
                 <Image
-                  src={service.image}
+                  src={withBase(service.image)}
                   alt={service.name}
                   fill
                   className="object-cover transition-transform duration-300 group-hover:scale-105"

@@ -23,6 +23,7 @@ import {
   breadcrumbSchema,
 } from "@/lib/seo";
 import { formatPrice } from "@/lib/constants";
+import { withBase } from "@/lib/paths";
 
 interface PageProps {
   params: Promise<{ city: string; service: string }>;
@@ -92,7 +93,7 @@ export default async function ServicePage({ params }: PageProps) {
             <div className="lg:col-span-2">
               <div className="relative mb-8 h-64 overflow-hidden rounded-2xl md:h-80">
                 <Image
-                  src={service.image}
+                  src={withBase(service.image)}
                   alt={`${service.name} в ${city.nameIn}`}
                   fill
                   className="object-cover"

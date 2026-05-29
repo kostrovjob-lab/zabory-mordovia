@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { GALLERY_IMAGES } from "@/lib/constants";
+import { withBase } from "@/lib/paths";
 
 export default function Gallery() {
   return (
@@ -18,7 +19,7 @@ export default function Gallery() {
             >
               <div className="relative aspect-[4/3]">
                 <Image
-                  src={img.src}
+                  src={withBase(img.src)}
                   alt={img.alt}
                   fill
                   className="object-cover transition-transform duration-300 hover:scale-105"
